@@ -1,0 +1,14 @@
+
+path: /home/dc/huangcy/yolov5-master/yolov5-master/own_datas
+train: # train images (relative to 'path')  16551 images
+  - train
+val: # val images (relative to 'path')  4952 images
+  - val
+test: # test images (optional)
+  - test
+
+# Classes
+names:
+  0: Safety-Helmet
+  1: Reflective-Jacket
+
